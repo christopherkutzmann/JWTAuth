@@ -71,3 +71,9 @@ If you want to try testing out JWTAuth using a simple form, put the following HT
   <input type="submit">
 </form>
 ```
+
+### Redirection
+
+By default, after successful redirects to the main page. You can change it by passing the parameter `returnToPage`:
+
+`https://wiki.example.com/wiki/Special:JWTLogin?returnToPage=ArticleName`
