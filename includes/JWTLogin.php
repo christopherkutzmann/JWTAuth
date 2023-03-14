@@ -141,7 +141,7 @@ class JWTLogin extends UnlistedSpecialPage {
     private function getRequestParameter($parameterName) {
         return
             (
-                in_array($parameterName, $_REQUEST) &&
+                array_key_exists($parameterName, $_REQUEST) &&
                 !empty($_REQUEST[$parameterName]) &&
                 strlen($_REQUEST[$parameterName])
             )
