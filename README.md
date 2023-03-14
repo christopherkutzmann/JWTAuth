@@ -74,6 +74,6 @@ If you want to try testing out JWTAuth using a simple form, put the following HT
 
 ### Redirection
 
-By default, after successful redirects to the main page. You can change it by passing the parameter `returnToPage`:
+By default, after successful authentication there is a redirect to the main page. You can change it by passing the parameter `returnToPage`:
 
 `https://wiki.example.com/wiki/Special:JWTLogin?returnToPage=ArticleName`
